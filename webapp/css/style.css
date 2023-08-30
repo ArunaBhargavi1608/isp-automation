@@ -1,0 +1,44 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: Arial;
+  font-size: 12px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-family: Arial;
+  font-size: 15px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: white;
+  color: black;
+}
+
+.navbar img{
+  width: 50px;
+  height: 50px;	
+  float: left;
+  display: block;
+  padding: 14px 16px;
+}
